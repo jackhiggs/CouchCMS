@@ -55,7 +55,7 @@
                                 'center', 'font', 'strike', 'del', 'abbr', 'dfn', 'samp', 'var', 'kbd', 'ins', 's', 'bdo',
 
                                 'article', 'aside', 'bdi', 'details', 'figcaption', 'figure', 'footer', 'header', 'hgroup',
-                                'mark', 'nav', 'rp', 'rt', 'ruby', 'section', 'summary', 'time', 'wbr'
+                                'mark', 'nav', 'rp', 'rt', 'ruby', 'section', 'summary', 'time', 'wbr', 'oembed'
                                 );
 
         function __construct( $type, $name='', $attr='', $text='', $cleanXSS=0, $for_comments=0, $safe_tags=null ){
@@ -301,7 +301,7 @@
                         'iframe','img','input','ins','isindex','kbd','label','legend','li','link','map','menu','meta','noframes',
                         'noscript','object','ol','optgroup','option','p','param','pre','q','s','samp','script','select','small',
                         'span','strike','strong','style','sub','sup','table','tbody','td','textarea','tfoot','th','thead','title',
-                        'tr','tt','u','ul','var'
+                        'tr','tt','u','ul','var','figure','oembed'
                         );
 
         function __construct( $str, $ignore_tags=null, $cleanXSS=0, $for_comments=0, $allowed_html_tags='' ){
